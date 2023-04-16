@@ -18,5 +18,7 @@
 #### Responce
 | Code | Description |
 |-|-|
-| 200 | ```JSON {"token":"token"} ``` |
+| 200 | ```JSON 
+{"token":"token"} 
+``` |
 | 500 | Failed |
