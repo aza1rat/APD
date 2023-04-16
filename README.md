@@ -1,6 +1,6 @@
 # Оглавление
-[Users](#Users)
-	[UsersAdd](#UsersAdd)
+1. [Users](#Users)
+	1. [UsersAdd](#UsersAdd)
 # Users
 ## UsersAdd
 ### :orange_book: `PUT` **users/add** 
