@@ -1,6 +1,6 @@
 # Оглавление
-1. [Users](#Users)
-	1. [UsersAdd](#UsersAdd)
+[Users](#Users)
+	[UsersAdd](#UsersAdd)
 # Users
 ## UsersAdd
 ### :orange_book: `PUT` **users/add** 
@@ -18,7 +18,5 @@
 #### Responce
 | Code | Description |
 |-|-|
-| 200 | ```JSON 
-{"token":"token"} 
-``` |
+| 200 | Created|
 | 500 | Failed |
