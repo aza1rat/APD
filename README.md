@@ -5,6 +5,6 @@
 # Users
 
 ## UsersAdd
-:orange_large_square: `#PUT` **users/add** Добавление нового пользователя
+:orange_book: `#PUT` **users/add** Добавление нового пользователя
 
 
