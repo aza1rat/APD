@@ -6,5 +6,11 @@
 
 ## UsersAdd
 :orange_book: `#PUT` **users/add** Добавление нового пользователя
+```JSON
+{
+	"user":"user",
+	"password":"password"
+}
+```
 
 
