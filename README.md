@@ -1,8 +1,10 @@
 # Оглавление
-0. [UsersAdd](#UsersAdd)
+1. [Users](#Users)
+	1. [UsersAdd](#UsersAdd)
 # Users
 ## UsersAdd
-### :orange_book: `PUT` **users/add** Добавление нового пользователя
+### :orange_book: `PUT` **users/add** 
+Добавление нового пользователя
 #### Parameters
 
 | Parameter | Value | Description | Data Type |
@@ -16,5 +18,5 @@
 #### Responce
 | Code | Description |
 |-|-|
-| 200 | Created |
+| 200 | ```JSON {"token":"token"} ``` |
 | 500 | Failed |
