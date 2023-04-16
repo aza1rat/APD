@@ -5,5 +5,6 @@
 # Users
 
 ## UsersAdd
-- !(https://placehold.co/15x15/f4a900/f4a900.png) `#PUT` 
+![f4a900](https://placehold.co/15x15/f4a900/f4a900.png) `#PUT` **users/add** Добавление нового пользователя
+
 
