@@ -1,11 +1,8 @@
 # Оглавление
-
 0. [UsersAdd](#UsersAdd)
-
 # Users
-
 ## UsersAdd
-### :orange_book: `#PUT` **users/add** Добавление нового пользователя
+### :orange_book: `PUT` **users/add** Добавление нового пользователя
 #### Parameters
 
 | Parameter | Value | Description | Data Type |
@@ -16,9 +13,7 @@
 | surname & firstname | (not required) | surname | string |
 | surname & firstname | (not required) | firstname | string |
 | surname & firstname & patronymic | (not required) | patronymic | string |
-
 #### Responce
-
 | Code | Description |
 |-|-|
 | 200 | Created |
