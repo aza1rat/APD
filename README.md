@@ -13,7 +13,7 @@
 #### Parameters
 | Parameter | Value | Description | Data Type |
 |-|-|-|-|
-| user | (not required) | login or email | string |
+| user | (required) | login or email | string |
 | password | (required) | password | string |
 #### Response
 | Code | Description |
