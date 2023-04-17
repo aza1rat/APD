@@ -2,11 +2,11 @@
 1. [Users](#Users)
     1. [UsersAdd](#UsersAdd)
 # Users
-йствия с пользователями
+Действия с пользователями
             
 ## UsersAdd
 ### :orange_book: `PUT` **users/add**
-бавление нового пользователя
+Добавление нового пользователя
             
 #### Parameters
 | Parameter | Value | Description | Data Type |
