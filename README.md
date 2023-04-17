@@ -15,7 +15,6 @@
 |-|-|-|-|
 | user | (not required) | login or email | string |
 | password | (required) | password | string |
-| email | (not required) | login or email | string |
 #### Response
 | Code | Description |
 |-|-|
