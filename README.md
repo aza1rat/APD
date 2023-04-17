@@ -1,6 +1,7 @@
 # Оглавление
 1. [Sessions](#Sessions)
     1. [SessionsAdd](#SessionsAdd)
+    1. [SessionsDelete](#SessionsDelete)
 2. [Users](#Users)
     1. [UsersAdd](#UsersAdd)
 # Sessions
@@ -19,6 +20,19 @@
 | Code | Description |
 |-|-|
 | 200 | token |
+| 500 | Failed |
+## SessionsDelete
+### :closed_book: `DELETE` **sessions/delete**
+Удаление сессии
+            
+#### Parameters
+| Parameter | Value | Description | Data Type |
+|-|-|-|-|
+| token | (required) | token of session | string |
+#### Response
+| Code | Description |
+|-|-|
+| 200 | Deleted |
 | 500 | Failed |
 # Users
 Действия с пользователями
