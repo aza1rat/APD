@@ -4,6 +4,7 @@
     1. [SessionsDelete](#SessionsDelete)
 2. [Users](#Users)
     1. [UsersAdd](#UsersAdd)
+    1. [UsersDelete](#UsersDelete)
 # Sessions
 Действия с сессиями
             
@@ -54,4 +55,17 @@
 | Code | Description |
 |-|-|
 | 200 | Created |
+| 500 | Failed |
+## UsersDelete
+### :closed_book: `DELETE` **users/delete**
+Удаление пользователя по токену сессии
+            
+#### Parameters
+| Parameter | Value | Description | Data Type |
+|-|-|-|-|
+| token | (required) | token of session | string |
+#### Response
+| Code | Description |
+|-|-|
+| 200 | Deleted |
 | 500 | Failed |
