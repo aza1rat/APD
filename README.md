@@ -48,9 +48,6 @@
 | user | (required) | login | string |
 | password | (required) | password | string |
 | email | (required) | email | string |
-| surname | (not required) | surname and firstname only | string |
-| firstname | (not required) | surname and firstname only | string |
-| patronymic | (not required) | FIO only | string |
 #### Response
 | Code | Description |
 |-|-|
