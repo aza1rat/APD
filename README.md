@@ -4,6 +4,7 @@
     1. [SessionsDelete](#SessionsDelete)
 2. [Users](#Users)
     1. [UsersAdd](#UsersAdd)
+    1. [UsersRegistrationDataChanged](#UsersRegistrationDataChanged)
     1. [UsersDelete](#UsersDelete)
 # Sessions
 Действия с сессиями
@@ -52,6 +53,23 @@
 | Code | Description |
 |-|-|
 | 200 | Created |
+| 500 | Failed |
+## UsersRegistrationDataChanged
+### :green_book: `POST` **users/update**
+Обновление данных пользователю по логину и паролю
+            
+#### Parameters
+| Parameter | Value | Description | Data Type |
+|-|-|-|-|
+| token | (required) | token of session | string |
+| lastname | (required) | last name | string |
+| firstname | (required) | first name | string |
+| patronymic | (not required) | patronymic | string |
+| image | (not required) | avatar user | string |
+#### Response
+| Code | Description |
+|-|-|
+| 200 | Changed |
 | 500 | Failed |
 ## UsersDelete
 ### :closed_book: `DELETE` **users/delete**
