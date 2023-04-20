@@ -52,7 +52,7 @@
 #### Response
 | Code | Description |
 |-|-|
-| 200 | Created |
+| 200 | token |
 | 500 | Failed |
 ## UsersRegistrationDataChanged
 ### :green_book: `POST` **users/update**
